@@ -4,10 +4,9 @@ https://github.com/user-attachments/assets/cd038ab1-9ef6-4c4e-84ec-3b03d56d1bd5
 
 A modular AI agent framework powered by Gemini, designed to enable tool-based interactions and intelligent task execution using Streamlit for a smooth web interface.
 
-## 📁 Project Structure
+## Project Structure
 
-
-```
+```text
 Gemini-Agent/
 ├── .streamlit/                # Streamlit configuration files
 ├── src/
@@ -29,7 +28,7 @@ Gemini-Agent/
 └── requirements.txt           # Python dependencies
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -50,12 +49,14 @@ pip install -r requirements.txt
 
 Ensure your virtual environment is activated. If you're using `.venv`, run:
 
-- On **Windows**:
+* On **Windows**:
+
   ```bash
   .venv\Scripts\activate
   ```
 
-- On **macOS/Linux**:
+* On **macOS/Linux**:
+
   ```bash
   source .venv/bin/activate
   ```
@@ -70,18 +71,19 @@ py -m streamlit run streamlit_app.py
 ```
 
 > On **Linux/macOS**, use:
+
 ```bash
 python3 -m streamlit run streamlit_app.py
 ```
 
-## 🛠 Features
+## Features
 
-- Modular tool definitions and selection
-- Gemini LLM integration
-- Session history handling
-- Customizable system prompts
-- Visual interface with Streamlit
+* Modular tool definitions and selection
+* Gemini LLM integration
+* Session history handling
+* Customizable system prompts
+* Visual interface with Streamlit
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
